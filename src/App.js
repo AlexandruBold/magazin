@@ -21,7 +21,13 @@ function App() {
           </center>
           <center>
             <div className="btns">
-              <button onClick={() => setImg("/images/image1.jpg")}></button>
+              <button
+                onClick={() =>
+                  setImg(
+                    "https://github.com/AlexandruBold/magazin/blob/gh-pages/images/image1.jpg"
+                  )
+                }
+              ></button>
               <button onClick={() => setImg("/images/image2.jpg")}></button>
               <button onClick={() => setImg(image3)}></button>
             </div>
