@@ -1,5 +1,5 @@
 import "./App.css";
-import image3 from "images/image3.jpg";
+import image3 from "./images/image3.jpg";
 import NotFound from "./notFound";
 import React, { useState } from "react";
 import { Route, Routes } from "react-router-dom";
