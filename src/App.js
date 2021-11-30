@@ -23,7 +23,7 @@ function App() {
             <div className="btns">
               <button onClick={() => setImg("/images/image1.jpg")}></button>
               <button onClick={() => setImg("/images/image2.jpg")}></button>
-              <button onClick={() => setImg("/images/image3.jpg")}></button>
+              <button onClick={() => setImg(image3)}></button>
             </div>
           </center>
         </div>
