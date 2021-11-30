@@ -1,5 +1,8 @@
 import "./App.css";
+import placeholder from "./images/placeholder.png";
 import image3 from "./images/image3.jpg";
+import image2 from "./images/image2.jpg";
+import image1 from "./images/image2.jpg";
 import NotFound from "./notFound";
 import React, { useState } from "react";
 import { Route, Routes } from "react-router-dom";
@@ -21,14 +24,8 @@ function App() {
           </center>
           <center>
             <div className="btns">
-              <button
-                onClick={() =>
-                  setImg(
-                    "https://github.com/AlexandruBold/magazin/blob/gh-pages/images/image1.jpg"
-                  )
-                }
-              ></button>
-              <button onClick={() => setImg("/images/image2.jpg")}></button>
+              <button onClick={() => setImg(image1)}></button>
+              <button onClick={() => setImg(image2)}></button>
               <button onClick={() => setImg(image3)}></button>
             </div>
           </center>
@@ -50,7 +47,7 @@ function App() {
       tip,
       marime,
       pret,
-      imagine = "/images/placeholder.png" //imagine default pentru toate
+      imagine = placeholder //imagine default pentru toate
     ) {
       this.nume = nume;
       this.id = id;
