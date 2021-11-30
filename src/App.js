@@ -8,7 +8,7 @@ import Item from "./Item";
 import ShoppingList from "./ShoppingList";
 function App() {
   function Home() {
-    let [img, setImg] = useState("/images/image3.jpg"); //hook pt imaginea din home
+    let [img, setImg] = useState("./images/image3.jpg"); //hook pt imaginea din home
 
     return (
       <div className="home-page">
@@ -33,7 +33,7 @@ function App() {
   let itemeCumparate = []; //lista de iteme adaugate in cos
   function add(item) {
     itemeCumparate.push(item);
-  }//functie data prin props (mai jos) pentru a adauga obiectele in cos
+  } //functie data prin props (mai jos) pentru a adauga obiectele in cos
 
   class Objects {
     constructor(
@@ -43,7 +43,7 @@ function App() {
       tip,
       marime,
       pret,
-      imagine = "/images/placeholder.png"//imagine default pentru toate
+      imagine = "/images/placeholder.png" //imagine default pentru toate
     ) {
       this.nume = nume;
       this.id = id;
@@ -355,7 +355,7 @@ function App() {
   let Accesoriu28 = new Objects("Accesoriu28", 28, "F", "Elegant", "-", 500);
 
   let Incaltaminte = {
-    categorie: "Incaltaminte",//categoria dupa care vor fi filtrate din nav
+    categorie: "Incaltaminte", //categoria dupa care vor fi filtrate din nav
     iteme: [
       Incaltaminte1,
       Incaltaminte2,
@@ -456,7 +456,7 @@ function App() {
   let items = [Accesorii, Incaltaminte, Imbracaminte];
   return (
     <div className="App">
-      {<Nav items={items}  />}
+      {<Nav items={items} />}
 
       <Routes>
         <Route path="/notFound" element={<NotFound />}></Route>
