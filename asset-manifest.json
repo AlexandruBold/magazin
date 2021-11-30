@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/magazin/static/css/main.f7f4dc75.chunk.css",
+    "main.css": "/magazin/static/css/main.2e292c5d.chunk.css",
     "main.js": "/magazin/static/js/main.69f53282.chunk.js",
     "main.js.map": "/magazin/static/js/main.69f53282.chunk.js.map",
     "runtime-main.js": "/magazin/static/js/runtime-main.f0e3b408.js",
@@ -8,7 +8,7 @@
     "static/js/2.e6c9f201.chunk.js": "/magazin/static/js/2.e6c9f201.chunk.js",
     "static/js/2.e6c9f201.chunk.js.map": "/magazin/static/js/2.e6c9f201.chunk.js.map",
     "index.html": "/magazin/index.html",
-    "static/css/main.f7f4dc75.chunk.css.map": "/magazin/static/css/main.f7f4dc75.chunk.css.map",
+    "static/css/main.2e292c5d.chunk.css.map": "/magazin/static/css/main.2e292c5d.chunk.css.map",
     "static/js/2.e6c9f201.chunk.js.LICENSE.txt": "/magazin/static/js/2.e6c9f201.chunk.js.LICENSE.txt",
     "static/media/image1.6d0e5a32.jpg": "/magazin/static/media/image1.6d0e5a32.jpg",
     "static/media/image2.feeca846.jpg": "/magazin/static/media/image2.feeca846.jpg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.f0e3b408.js",
     "static/js/2.e6c9f201.chunk.js",
-    "static/css/main.f7f4dc75.chunk.css",
+    "static/css/main.2e292c5d.chunk.css",
     "static/js/main.69f53282.chunk.js"
   ]
 }
