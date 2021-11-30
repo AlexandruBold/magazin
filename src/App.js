@@ -1,4 +1,5 @@
 import "./App.css";
+import image3 from "/images/image3.jpg";
 import NotFound from "./notFound";
 import React, { useState } from "react";
 import { Route, Routes } from "react-router-dom";
@@ -8,7 +9,7 @@ import Item from "./Item";
 import ShoppingList from "./ShoppingList";
 function App() {
   function Home() {
-    let [img, setImg] = useState("./images/image3.jpg"); //hook pt imaginea din home
+    let [img, setImg] = useState(image3); //hook pt imaginea din home
 
     return (
       <div className="home-page">
