@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.images {
+  width: 100vw;
+  height: 70vh;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-bar {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  border-bottom: 3vh solid black;
+}
+
+.nav-bar div {
+  text-align: center;
+  font-size: 1.7rem;
+  padding: 1vw;
+}
+a:link,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+.shopping-list {
+  grid-column: 9/10;
+  display: flex;
+  justify-content: left;
+}
+.nav-bar div a:hover {
+  color: grey;
+}
+.btns button {
+  border-radius: 100%;
+  border: 1.5px solid black;
+  margin: 0.5vh;
+  padding: 0.8vh;
+}
+.btns button:hover {
+  background-color: grey;
+}
+
+.Display {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  margin-top: 10vh;
+}
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3vh;
+  justify-items: center;
+}
+.img {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.item img {
+  width: 80%;
+}
+.item {
+  display: grid;
+
+  justify-items: center;
+  border: 1px solid black;
+  padding-bottom: 1vh;
+}
+.search-bar {
+  grid-column: 8/9;
+}
+p {
+  color: transparent;
+  text-shadow: 0 0 0 black;
+  font-size: 0.8em;
+}
+
+input[placeholder="Cauta..."] {
+  border: 1px solid grey;
+}
+input[placeholder="Cauta..."]:focus {
+  outline: none;
+  border: 1px solid black;
+}
+.home-page {
+  height: 89vh;
+  display: flex;
+  align-items: center;
+}
+.btns button:focus {
+  background-color: grey;
+}
+
+.filter-btns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.filter-btns button {
+  padding: 2vh;
+  border: 1px solid black;
+  margin: 1.5vh;
+  background-color: white;
+  margin-top: 0;
+}
+.filter-btns button:hover {
+  background-color: black;
+  color: white;
+}
+input[type="range"] {
+  background-color: black;
+  -webkit-appearance: none;
+}
+.item-showcase {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+.item-showcase .item {
+  grid-column: 2/4;
+  grid-row: 2/3;
+}
+
+.colors {
+  display: flex;
+}
+.colors div {
+  border: 1px solid black;
+  height: 3vw;
+  width: 3vw;
+
+  margin: 1vw;
+}
+.colors div img {
+  height: 100%;
+  width: 100%;
+}
+
+.adauga-btn {
+  padding: 1vh;
+  background-color: darkorange;
+  color: white;
+  border: 1px solid black;
+}
+
+.s-list {
+  display: grid;
+}
